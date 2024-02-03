@@ -1,0 +1,11 @@
+{
+  "estoque": [
+    { "codigo": 1, "descricao": "farol", "preco": 1000 },
+    { "codigo": 2, "descricao": "lanterna", "preco": 100 },
+    { "codigo": 3, "descricao": "roda", "preco": 100 },
+    { "codigo": 4, "descricao": "freio", "preco": 100 },
+    { "codigo": 5, "descricao": "motor", "preco": 100 },
+    { "codigo": 6, "descricao": "manetes", "preco": 100 },
+    { "codigo": 7, "descricao": "teste", "preco": 1 }
+  ]
+}

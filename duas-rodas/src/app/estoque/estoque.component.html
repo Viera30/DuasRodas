@@ -1,0 +1,22 @@
+<table>
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Descrição</th>
+      <th>Preço</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of estoque">
+      <td>{{item.codigo}}</td>
+      <td>{{item.descricao}}</td>
+      <td>{{item.preco}}</td>
+      <td>
+        <button (click)="editar(item)">Editar</button>
+        <button (click)="excluir(item.codigo)">Excluir</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<button (click)="incluir()">Incluir</button>
